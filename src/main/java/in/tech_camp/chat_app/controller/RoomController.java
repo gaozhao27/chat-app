@@ -23,8 +23,6 @@ import in.tech_camp.chat_app.repository.RoomUserRepository;
 import in.tech_camp.chat_app.repository.UserRepository;
 import in.tech_camp.chat_app.validation.ValidationOrder;
 import lombok.AllArgsConstructor;
-import org.springframework.web.bind.annotation.RequestParam;
-
 
 @Controller
 @AllArgsConstructor
