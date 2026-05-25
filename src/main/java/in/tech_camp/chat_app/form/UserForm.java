@@ -11,7 +11,7 @@ import lombok.Data;
 
 @Data
 public class UserForm {
-   @NotBlank(message = "Name can't be blank", groups = ValidationPriority1.class)
+  @NotBlank(message = "Name can't be blank", groups = ValidationPriority1.class)
   private String name;
 
   @NotBlank(message = "Email can't be blank", groups = ValidationPriority1.class)
